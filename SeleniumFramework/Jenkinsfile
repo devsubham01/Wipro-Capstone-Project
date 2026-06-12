@@ -1,0 +1,68 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven'
+        jdk   'JDK11'
+    }
+
+    parameters {
+        choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'both'],
+               description: 'Select browser to run tests on')
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                echo 'Checking out source code from Git...'
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Compiling project with Maven...'
+                bat 'mvn clean compile -q'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                echo "Running tests on browser: ${params.BROWSER}"
+                bat 'mvn test'
+            }
+        }
+
+        stage('Publish Extent Report') {
+            steps {
+                publishHTML(target: [
+                    allowMissing         : true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll              : true,
+                    reportDir            : 'reports',
+                    reportFiles          : 'ExtentReport.html',
+                    reportName           : 'Selenium Extent Report'
+                ])
+            }
+        }
+
+        stage('Archive Screenshots') {
+            steps {
+                archiveArtifacts artifacts: 'screenshots/*.png', allowEmptyArchive: true
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'BUILD SUCCESS — All tests passed!'
+        }
+        failure {
+            echo 'BUILD FAILED — Check Extent Report and screenshots.'
+        }
+        always {
+            echo 'Pipeline complete.'
+        }
+    }
+}

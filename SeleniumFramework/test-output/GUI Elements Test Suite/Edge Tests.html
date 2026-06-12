@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Edge Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Edge Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 12 10:07:41 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38234 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testPromptAlert()'><b>testPromptAlert</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Handle Prompt Alert — type input and click OK</td>
+<td></td>
+<td>1</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testDoubleClick()'><b>testDoubleClick</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Double click action</td>
+<td></td>
+<td>1</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testTextFields()'><b>testTextFields</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Enter Name, Email, Phone, Address in text fields</td>
+<td></td>
+<td>1</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testMouseHover()'><b>testMouseHover</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Mouse hover on Point Me button</td>
+<td></td>
+<td>2</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testDragAndDrop()'><b>testDragAndDrop</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Drag and drop element to target</td>
+<td></td>
+<td>1</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testConfirmationAlert()'><b>testConfirmationAlert</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Handle Confirmation Alert — click OK</td>
+<td></td>
+<td>3</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testSlider()'><b>testSlider</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Move slider 10 steps using arrow keys</td>
+<td></td>
+<td>2</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testSimpleAlert()'><b>testSimpleAlert</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Handle Simple Alert — click OK</td>
+<td></td>
+<td>3</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testCheckboxes()'><b>testCheckboxes</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Select Monday, Wednesday, Friday checkboxes</td>
+<td></td>
+<td>0</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testDatePicker()'><b>testDatePicker</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Enter date using date picker</td>
+<td></td>
+<td>0</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testDropdowns()'><b>testDropdowns</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Select Country and Color from dropdowns</td>
+<td></td>
+<td>1</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+<tr>
+<td title='com.guielements.tests.GUIElementsTest.testRadioButton()'><b>testRadioButton</b><br>Test class: com.guielements.tests.GUIElementsTest<br>Test method: Select Male radio button for Gender</td>
+<td></td>
+<td>0</td>
+<td>com.guielements.tests.GUIElementsTest@14b030a0</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-12T10:07:41 IST" name="GUI Elements Test Suite" finished-at="2026-06-12T10:08:19 IST" duration-ms="38316">
+    <groups>
+    </groups>
+    <test started-at="2026-06-12T10:07:41 IST" name="Edge Tests" finished-at="2026-06-12T10:08:19 IST" duration-ms="38234">
+      <class name="com.guielements.tests.GUIElementsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:41 IST" name="setUp" finished-at="2026-06-12T10:07:54 IST" duration-ms="12099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageAndData()[pri:0, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:54 IST" name="initPageAndData" finished-at="2026-06-12T10:07:56 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageAndData -->
+        <test-method signature="testTextFields()[pri:1, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:56 IST" name="testTextFields" description="Enter Name, Email, Phone, Address in text fields" finished-at="2026-06-12T10:07:57 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method signature="testRadioButton()[pri:2, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:57 IST" name="testRadioButton" description="Select Male radio button for Gender" finished-at="2026-06-12T10:07:58 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadioButton -->
+        <test-method signature="testCheckboxes()[pri:3, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:58 IST" name="testCheckboxes" description="Select Monday, Wednesday, Friday checkboxes" finished-at="2026-06-12T10:07:59 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxes -->
+        <test-method signature="testDropdowns()[pri:4, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:07:59 IST" name="testDropdowns" description="Select Country and Color from dropdowns" finished-at="2026-06-12T10:08:00 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdowns -->
+        <test-method signature="testDatePicker()[pri:5, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:00 IST" name="testDatePicker" description="Enter date using date picker" finished-at="2026-06-12T10:08:01 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker -->
+        <test-method signature="testSimpleAlert()[pri:6, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:01 IST" name="testSimpleAlert" description="Handle Simple Alert — click OK" finished-at="2026-06-12T10:08:04 IST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleAlert -->
+        <test-method signature="testConfirmationAlert()[pri:7, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:04 IST" name="testConfirmationAlert" description="Handle Confirmation Alert — click OK" finished-at="2026-06-12T10:08:07 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmationAlert -->
+        <test-method signature="testPromptAlert()[pri:8, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:07 IST" name="testPromptAlert" description="Handle Prompt Alert — type input and click OK" finished-at="2026-06-12T10:08:09 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptAlert -->
+        <test-method signature="testMouseHover()[pri:9, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:09 IST" name="testMouseHover" description="Mouse hover on Point Me button" finished-at="2026-06-12T10:08:12 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method signature="testDoubleClick()[pri:10, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:12 IST" name="testDoubleClick" description="Double click action" finished-at="2026-06-12T10:08:13 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleClick -->
+        <test-method signature="testDragAndDrop()[pri:11, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:13 IST" name="testDragAndDrop" description="Drag and drop element to target" finished-at="2026-06-12T10:08:15 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method signature="testSlider()[pri:12, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:15 IST" name="testSlider" description="Move slider 10 steps using arrow keys" finished-at="2026-06-12T10:08:17 IST" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guielements.tests.GUIElementsTest@14b030a0]" started-at="2026-06-12T10:08:17 IST" name="tearDown" finished-at="2026-06-12T10:08:19 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guielements.tests.GUIElementsTest -->
+    </test> <!-- Edge Tests -->
+    <test started-at="2026-06-12T10:07:41 IST" name="Chrome Tests" finished-at="2026-06-12T10:08:19 IST" duration-ms="38316">
+      <class name="com.guielements.tests.GUIElementsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:07:41 IST" name="setUp" finished-at="2026-06-12T10:07:58 IST" duration-ms="16673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageAndData()[pri:0, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:07:58 IST" name="initPageAndData" finished-at="2026-06-12T10:07:58 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageAndData -->
+        <test-method signature="testTextFields()[pri:1, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:07:58 IST" name="testTextFields" description="Enter Name, Email, Phone, Address in text fields" finished-at="2026-06-12T10:08:00 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextFields -->
+        <test-method signature="testRadioButton()[pri:2, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:00 IST" name="testRadioButton" description="Select Male radio button for Gender" finished-at="2026-06-12T10:08:00 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadioButton -->
+        <test-method signature="testCheckboxes()[pri:3, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:00 IST" name="testCheckboxes" description="Select Monday, Wednesday, Friday checkboxes" finished-at="2026-06-12T10:08:01 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxes -->
+        <test-method signature="testDropdowns()[pri:4, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:01 IST" name="testDropdowns" description="Select Country and Color from dropdowns" finished-at="2026-06-12T10:08:02 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdowns -->
+        <test-method signature="testDatePicker()[pri:5, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:02 IST" name="testDatePicker" description="Enter date using date picker" finished-at="2026-06-12T10:08:03 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker -->
+        <test-method signature="testSimpleAlert()[pri:6, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:03 IST" name="testSimpleAlert" description="Handle Simple Alert — click OK" finished-at="2026-06-12T10:08:05 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleAlert -->
+        <test-method signature="testConfirmationAlert()[pri:7, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:05 IST" name="testConfirmationAlert" description="Handle Confirmation Alert — click OK" finished-at="2026-06-12T10:08:07 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmationAlert -->
+        <test-method signature="testPromptAlert()[pri:8, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:07 IST" name="testPromptAlert" description="Handle Prompt Alert — type input and click OK" finished-at="2026-06-12T10:08:10 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptAlert -->
+        <test-method signature="testMouseHover()[pri:9, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:10 IST" name="testMouseHover" description="Mouse hover on Point Me button" finished-at="2026-06-12T10:08:12 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method signature="testDoubleClick()[pri:10, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:12 IST" name="testDoubleClick" description="Double click action" finished-at="2026-06-12T10:08:13 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleClick -->
+        <test-method signature="testDragAndDrop()[pri:11, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:13 IST" name="testDragAndDrop" description="Drag and drop element to target" finished-at="2026-06-12T10:08:15 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method signature="testSlider()[pri:12, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:15 IST" name="testSlider" description="Move slider 10 steps using arrow keys" finished-at="2026-06-12T10:08:17 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guielements.tests.GUIElementsTest@58c34bb3]" started-at="2026-06-12T10:08:17 IST" name="tearDown" finished-at="2026-06-12T10:08:19 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guielements.tests.GUIElementsTest -->
+    </test> <!-- Chrome Tests -->
+  </suite> <!-- GUI Elements Test Suite -->
+</testng-results>
